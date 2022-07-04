@@ -46,6 +46,8 @@ final class UserFactory extends ModelFactory
             'firstName' =>self::faker()->firstName(),
             'roles' => [],
             'plainPassword' => 'tada',
+            'isVerified' => true,
+
         ];
     }
 
